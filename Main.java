@@ -9,7 +9,7 @@ public class Main {
     static final double N_ELEM_ABAIXO = 66.0;
 
     // Funcao para realizar a soma.
-    public static double somarElem(double matriz[][], int n){
+    public static double somarElem(double matriz[][]){
         double soma = 0.0;
         for(int i=0; i<TAM; i++){ // Itero linhas no laco exterior e colunas no interior
             for(int j=0; j<TAM; j++)
@@ -34,7 +34,7 @@ public class Main {
         }
 
         // Variavel para armazenar o resultado da soma
-        double soma = somarElem(M, TAM);
+        double soma = somarElem(M);
 
         // Se o caracter for 'S' será feita a soma dos elementos abaixo da diagonal
         if(O=='S')
