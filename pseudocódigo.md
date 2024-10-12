@@ -4,7 +4,7 @@
 ****
 
 **Matriz Real** *M* 12x12  
-**Caracter** *O* <- lerDoUsuario  
+**Carácter** *O* <- lerDoUsuario  
 **Inteiro** *i*, *j* <- 0  
 
 Para cada *linha* em *M*:  
