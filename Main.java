@@ -2,7 +2,7 @@
 // Autor: Caio Vinicius Corsini Filho
 
 import java.util.Scanner; // Importa a classe Scanner, usada para inputs
-public class abaixoDaDiagonalSecundaria {
+public class Main {
     // Constantes
     // Final eh para impedir que elas sejam modificadas
     static final int TAM = 12;
